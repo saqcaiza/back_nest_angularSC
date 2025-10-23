@@ -1,0 +1,26 @@
+POST http://127.0.0.1:3000/auth/register
+Content-Type: application/json
+
+{
+    "name": "Steeven Caiza",
+    "email": "saq.caiza@yavirac.edu.ec",
+    "password": "123456"
+}
+
+### login sin conexion a DB 
+POST http://127.0.0.1:3000/auth/login
+Content-Type: application/json
+
+{
+    "name": "Steeven Caiza",
+    "email": "saq.caiza@yavirac.edu.ec",
+    "password": "123456"
+}
+
+### users
+GET http://127.0.0.1:3000/users
+
+
+
+
+    
