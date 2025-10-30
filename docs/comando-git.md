@@ -24,11 +24,6 @@ git remote -v
 
 git add .
 git commit -m "proyecto bases"
-git push origin master
-```
-```
--Para forzar
-
-git push -f origin master
+git put origin master
 ```
 `````
